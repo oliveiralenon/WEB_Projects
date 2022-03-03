@@ -30,6 +30,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.164)
 }
 
+.robo_cabecalho:hover {
+    box-shadow: 0 0 1em white;
+}
+
 .cabecalho_menu {
     display: flex;
     gap: 35px;
@@ -42,6 +46,10 @@ body {
     font-size: 18px;
 }
 
+.cabecalho_items:hover {
+    text-shadow: 0 0 1em white;
+}
+
 .conteudo {
     border-top:  0.3px solid #f1f1f13d;
     margin-bottom: 50px;
@@ -51,7 +59,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .conteudo_principal_escrito {
@@ -80,6 +88,10 @@ body {
     border: none;
     border-radius: 30px;
     box-shadow: 5px 5px 5px black;
+}
+
+.conteudo_principal_escrito_botao:hover {
+    box-shadow: 0 0 1em white;
 }
 
 .conteudo_secundario {
