@@ -8,30 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 id="title">Remote Sensing Project</h1>
-        <li>
-            <ul><a href="index.html">Início</a></ul>
-            <ul><a href="#">Cursos</a></ul>
-            <ul><a href="sobre.html">Sobre</a></ul>
-            <ul><a href="#">Inscreva-se</a></ul>
-        </li>
+    <header class="header">
+        <h1 id="header-title">Remote Sensing Project</h1>
+        <nav>
+            <li id="header-items">
+                <ul><a href="index.html">Início</a></ul>
+                <ul><a href="#">Cursos</a></ul>
+                <ul><a href="sobre.html">Sobre</a></ul>
+                <ul><a href="#">Inscreva-se</a></ul>
+            </li>
+        </nav>
     </header>
-    <main>
-        <aside>
+    <main class="main_content">
+        <aside id="left-content">
             <h2 id="bemvindo">Bem vindo!</h2>
-            <h2 id="inscrevase">Inscreva-se abaixo.</h2>
+            <h2 id="inscreva-se">Inscreva-se abaixo.</h2>
             <form action="">
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="e-mail">
                 <input type="submit" id="submit"placeholder="Enviar">
             </form>
         </aside>
-        <article>
-            <img src="img/satellite-307326_960_720.png" alt="">
+        <article class="right-content">
+            <img class="main_img" src="img/satellite-307326_960_720.png" alt="">
         </article>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2022 Lenon Silva de Oliveira</p>
     </footer>
 </body>
