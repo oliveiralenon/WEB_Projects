@@ -148,6 +148,45 @@ footer a img{
     align-items: center;
 }
 
+/* Start - Styles in the about page. */
+
+#titulo_autor {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+}
+
+#main_autor {
+    display: flex;
+    gap: 40px;
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#imagem_autor {
+    min-width: 300px;
+    min-height: 300px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto_autor {
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End - Styles in the about page. */
+
+
 @media screen and (max-width: 1200px) {
     
     .header {
@@ -162,6 +201,10 @@ footer a img{
     .main_img {
         display: none;
     } 
+
+    #main_autor {
+        display: flex;
+        flex-direction: column;
 }
 
 @media screen and (max-width: 113) {
@@ -170,6 +213,5 @@ footer a img{
         align-items: center;
         text-align: center;
         justify-content: center;
-
     }
 }
