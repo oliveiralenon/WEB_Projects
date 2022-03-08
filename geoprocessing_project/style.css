@@ -153,15 +153,18 @@ footer a img{
 #titulo_autor {
     text-align: center;
     font-family: 'Archivo', sans-serif;
-    font-size: 30px;
+    font-size: 34px;
+    margin-top: 50px;
 }
 
 #main_autor {
     display: flex;
     gap: 40px;
-    padding: 5%;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 #imagem_autor {
@@ -207,7 +210,7 @@ footer a img{
         flex-direction: column;
 }
 
-@media screen and (max-width: 113) {
+@media screen and (max-width: 113px) {
     h1 {
         display: flex;
         align-items: center;
